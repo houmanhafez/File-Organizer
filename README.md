@@ -14,8 +14,7 @@ Browser File Organizer is a Python script designed to monitor the default browse
 ## Requirements
 
 - Python 3.x
-- psutil Python library (automatically installed via pip)
-- Supported Browsers: Chrome, Edge, Firefox, Brave, Vivaldi, Tor, Chromium, Arc (for macOS and Linux)
+- watchdog
 
 ## Installation
 
@@ -29,19 +28,18 @@ Browser File Organizer is a Python script designed to monitor the default browse
 3. Run the script:
 
 - For Windows:
-  - Double-click the `start_background.bat` file.
+  - Double-click the `windows.bat` file.
 
 - For macOS and Linux:
   - Execute the following command in your terminal:
 
     ```
-    sh start_background.sh
+    sh unix.sh
     ```
 
 ## Usage
 
-- Once the script is running, it will continuously monitor the default browser.
-- When the default browser is launched, the script will automatically organize downloaded files into appropriate folders.
+- Once the script is running, it will continuously monitor the Downloads directory in the background.
 - You can customize the file organization logic by modifying the main Python script (`script.py`).
 
 ## License
