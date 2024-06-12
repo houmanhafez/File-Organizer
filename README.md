@@ -1,6 +1,6 @@
 # File Organizer
 
-File Organizer is a Python script designed to monitor the default browser on your system and organize downloaded files into folders based on their types. It works seamlessly in the background, ensuring your downloads are neatly categorized without any manual effort.
+File Organizer is a Python script designed to monitor the browser on your system and organize downloaded files into folders based on their types. It works seamlessly in the background, ensuring your downloads are neatly categorized without any manual effort.
 
 ## Features
 
