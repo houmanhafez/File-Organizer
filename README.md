@@ -11,13 +11,8 @@ Browser File Organizer is a Python script designed to monitor the default browse
 - Provides user-friendly messages to indicate the start and stop of the file organizer, as well as error messages for missing folders and permission issues.
 
 ### Browser Detection and Auto-Start
-- Detects when a browser process (Google Chrome, Mozilla Firefox, Microsoft Edge, or Safari) is running.
-- Automatically starts the file organizer when a browser is detected, allowing seamless organization of downloaded files while browsing.
-- Prints informative messages indicating when a browser is detected and when the file organizer starts or stops.
-
-### Improved Output
-- Utilizes docstrings to provide clear documentation for classes and functions.
-- Enhances print statements with user-friendly messages to improve the overall user experience.
+- Detects when a browser process is running.
+- Starts to organize when a browser is detected, allowing seamless organization of downloaded files while browsing.
 
 
 ## Requirements
@@ -25,6 +20,7 @@ Browser File Organizer is a Python script designed to monitor the default browse
 - Python 3.x
 - watchdog
 - psutil
+- errno
 
 ## Installation
 
