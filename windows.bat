@@ -1,2 +1,2 @@
 @echo off
-start /B pythonw script.py
+start /B pythonw gui.py
