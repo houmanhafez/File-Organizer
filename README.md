@@ -1,22 +1,26 @@
 # File Organizer
 
-Browser File Organizer is a Python script designed to monitor the default browser on your system and organize downloaded files into folders based on their types. It works seamlessly in the background, ensuring your downloads are neatly categorized without any manual effort.
+File Organizer is a Python script designed to monitor the browser on your system and organize downloaded files into folders based on their types. It works seamlessly in the background, ensuring your downloads are neatly categorized without any manual effort.
 
 ## Features
 
-- Automatically detects the default browser on your system.
-- Monitors the Desktop and Downloads folders.
-- Detects if a browser is running and starts to organize files in the background.
-- Organizes downloaded files into folders based on their types (e.g., PDF, images, HTML, etc.).
-- Works on Windows, macOS, and Linux platforms.
-- Minimal setup required.
-- Lightweight and efficient.
+### Automatic File Organization
+- Automatically organizes files in the Downloads folder and Desktop into categorized folders based on their file types.
+- Supports various file types including PDFs, images, HTML files, text files, spreadsheets, presentations, audio files, video files, fonts, archives, executables, scripts, Word documents, and more.
+- Handles duplicates by appending a suffix to the filename to ensure no files are overwritten.
+- Provides user-friendly messages to indicate the start and stop of the file organizer, as well as error messages for missing folders and permission issues.
+
+### Browser Detection and Auto-Start
+- Detects when a browser process is running.
+- Starts to organize when a browser is detected, allowing seamless organization of downloaded files while browsing.
+
 
 ## Requirements
 
 - Python 3.x
 - watchdog
 - psutil
+- errno
 
 ## Installation
 
