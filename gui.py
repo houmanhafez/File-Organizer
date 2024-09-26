@@ -10,7 +10,7 @@ class FileOrganizerApp(tk.Tk):
     def __init__(self):
         super().__init__()
         self.title("File Organizer")
-        self.geometry("600x650")
+        self.geometry("600x660")
         self.resizable(False, False)
 
 
