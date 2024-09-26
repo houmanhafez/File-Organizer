@@ -31,7 +31,7 @@ File Organizer is a Python script designed to monitor the browser on your system
   pip install -r requirements.txt
   ```
 
-3. Run the script:
+3. Run the scripts:
 
 - For Windows:
   - Double-click the `windows.bat` file.
